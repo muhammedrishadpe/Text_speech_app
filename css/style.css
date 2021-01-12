@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: small;
+  color: gray;
+}
+
+body {
+  background-color: #fab2b2;
+}
+
+textarea {
+  width: 100%;
+  height: auto;
+  background-image: url(/img/Star.gif);
+}
+
+.form-group {
+  border: 3px solid #466669;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(14, 14, 14, 0.75);
+          box-shadow: 1px 1px 5px 0px rgba(14, 14, 14, 0.75);
+  border-radius: 5%;
+  background-color: beige;
+}
+
+.form-group #rate-value, .form-group #pitch-value {
+  width: 15px;
+  height: auto;
+  background-color: darkgrey;
+}
+
+.form-group #voice-select {
+  width: 100%;
+  height: 100%;
+}
+
+.form-control {
+  border-radius: 5%;
+}
+/*# sourceMappingURL=style.css.map */

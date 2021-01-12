@@ -41,7 +41,7 @@ if (synth.onvoiceschanged !== undefined) {
 
 const speak = () => {
     // Add background animation
-    body.style.background = '#141414 url(img/wave2.gif)';
+    body.style.background = '#fab2a2 url(img/wave1.gif)';
     body.style.backgroundRepeat = 'repeat-x';
     body.style.backgroundSize = '100% 100%';
 
@@ -57,7 +57,7 @@ const speak = () => {
         //Speak end
         speakText.onend = e => {
             console.log('don speaking...');
-            body.style.background = '#141414';
+            body.style.background = '#fab2b2';
         };
 
         //Speak error
